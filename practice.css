@@ -1,0 +1,72 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    background: #f4f4f4;
+    display:flex;
+    justify-content:center;
+}
+
+.profile-name{
+    position:sticky;
+    background: blue;
+    color:white;
+    font-family:'Courier New', Courier, monospace;
+    font-size:large;
+    text-align:center;
+    border:5px solid black;
+    padding:10px;
+    z-index:22;
+
+}
+
+.profile{
+    height:500px;
+    width: 300px;
+    max-height:800px;
+    background:#ddd;
+    border:2px solid black;
+    border-radius:10px;
+    padding:20px;
+    position:relative;
+    overflow:hidden;
+}
+.badge-i{
+    height:40px;
+    width:40px;
+    position:relative;
+    left:250px;
+}
+.profileimg,img{
+    border-radius:50%;
+    height:200px;
+    width:250px;
+    filter:contrast(200%);
+    
+
+}
+
+.name{
+    text-align:center;
+    padding:10px;
+}
+
+.experiance{
+    text-align:center;
+    font-family:"UnifrakturMaguntia", cursive;
+    color:rgb(5, 126, 248);
+    text-shadow:5px 5px 8px white;
+    text-transform:capitalize;
+    letter-spacing:1px;
+    background:linear-gradient(to right, red,green);
+}
+
+.block i{
+    font-size:30px;
+    display:inline-block;
+    padding:20px;
+    margin-left:20px;
+}

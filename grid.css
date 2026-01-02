@@ -1,0 +1,45 @@
+*{
+    margin:0%;
+    padding:0%;
+}
+
+body{
+    background:beige;
+    padding:30px;
+}
+h1{
+    text-align:center;
+    border:2px solid rgb(187, 176, 176);
+    margin:30px;
+    text-transform:capitalize;
+    background:rgb(216, 170, 170);
+    font-family:'Courier New', Courier, monospace;
+    font-weight:bold;
+}
+.grid-box{
+    display:grid;
+    background:white;
+    gap:20px;
+    grid-template-columns:1fr 1fr 1fr;
+    padding:20px;
+    border:2px solid rgb(211, 202, 202);
+    border-radius:10px;
+}
+
+.box1{
+    display:flex;
+    justify-content:center;
+    flex-direction:column;
+    gap:10px;
+    text-align:center;
+    align-items:center;
+    border-radius:10px;
+    border:2px solid rgb(110, 105, 105);
+    padding:10px;
+    box-shadow:1px 1px 2px rgb(83, 78, 78);
+}
+.price{
+    font-family:'Times New Roman', Times, serif;
+    font-weight:900;
+    font-size:20px;
+}
